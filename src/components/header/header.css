@@ -1,0 +1,148 @@
+li {
+    text-decoration: none !important;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+}
+
+.top-header input {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 175px;
+    border: 1px solid #64b496;
+    outline: none;
+}
+
+.top-header select {
+    width: 130px;
+    font-size: 14px;
+    border: 1px solid #64b496;
+    outline: none;
+    border-radius: 0;
+}
+
+.top-header .search {
+    width: 45px;
+    background-color: #64b496;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.top-header-icone a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600 !important;
+}
+
+.navbar a {
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.header-call span {
+    font-weight: 600;
+}
+
+.header-menu a {
+    color: black;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+
+.top-header form input {
+    min-width: 100px;
+}
+.navbar-side-icon a{
+    color: #000;
+    text-decoration: none;
+    margin-right: 23px;
+    font-size: 18px;
+}
+.navbar-side-icon a:last-child{
+    margin-right: 0 !important;
+}
+
+@media (max-width: 992px) {
+    .top-header form {
+        flex-direction: row;
+    }
+
+    .top-header form input {
+        width: 100%;
+        padding-right: 75px;
+    }
+
+    .top-header-icone {
+        display: none;
+    }
+
+    .header-menu a {
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    .header-call span {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 1rem;
+    }
+
+    .top-header a img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .top-header form input {
+        width: 50%;
+        padding-right: 50px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .top-header form {
+        margin-top: 10px;
+    }
+
+    .top-header {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 421px) {
+    .top-header form select {
+        display: none;
+    }
+
+    .top-header form input {
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .top-header a.logo {
+        align-self: flex-start;
+    }
+}
